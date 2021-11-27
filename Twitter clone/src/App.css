@@ -1,0 +1,103 @@
+body {
+    --twitter-color: #1DA1F2;
+    --twitter-background: #EBEEF0;
+    --hover-background: #E8F5FE;
+}
+
+/* Responsive Application */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .widgets {
+        display: none !important;
+    }
+    .sideBarOption>h2 {
+        display: none !important;
+    }
+    .sidebar {
+        flex: 0.1 !important;
+    }
+    .feed {
+        flex: 0.9 !important;
+        margin-right: 10px !important;
+        border-right: 1px solid var(--twitter-background) !important;
+    }
+    .sidebar {
+        padding: 0px 5px !important;
+    }
+    .feed-header {
+        padding: 3px 5px !important;
+    }
+    .tweet-box {
+        padding: 10px 5px !important;
+    }
+    .post {
+        padding: 10px 5px 10px 0px !important;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .widgets {
+        display: none !important;
+    }
+    .feed {
+        flex: 0.9 !important;
+        margin-right: 10px !important;
+        border-right: 1px solid var(--twitter-background) !important;
+    }
+    .sideBarOption>h2 {
+        display: none !important;
+    }
+    .sidebar {
+        flex: 0.1 !important;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .feed {
+        flex: 0.9 !important;
+        margin-right: 10px !important;
+        border-right: 1px solid var(--twitter-background) !important;
+    }
+    .sideBarOption>h2 {
+        display: block !important;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .widgets {
+        display: none !important;
+    }
+    .feed {
+        flex: 0.8 !important;
+        margin-right: 10px !important;
+        border-right: 1px solid var(--twitter-background) !important;
+    }
+}
+
+@media only screen and (min-width: 995px) {
+    .feed {
+        flex: 0.6 !important;
+    }
+    .widgets {
+        display: block !important;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .widgets {
+        display: block !important;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#E43023" />
+  <meta name="description" content="PWA E-Commerce Multiperpose Ecommerce System" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="app-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="PWA E-Commerce">
+  <meta name="apple-mobile-web-app-title" content="PWA E-Commerce">
+  <meta name="msapplication-navbutton-color" content="#E43023">
+  <meta name="apple-mobile-web-app-status-bar-style" conten="black-translucent">
+  <meta name="msapplication-starturl" content="/">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>PWA E-Commerce</title>
+
+  <!-- Push Notification Script -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "8a29ece3-7a87-4f16-965e-adcafc3a88dd",
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

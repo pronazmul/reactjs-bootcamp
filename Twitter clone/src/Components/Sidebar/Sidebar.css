@@ -1,0 +1,32 @@
+.sidebar {
+    border-right: 1px solid var(--twitter-background);
+    flex: 0.2;
+    padding-top: 20px;
+    padding: 0px 20px;
+    justify-content: center;
+    /* max-width: 250px; */
+}
+
+.sidebar-twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    padding: 20px;
+}
+
+.sidebar-twitterIcon:hover {
+    cursor: pointer;
+    color: var(--twitter-color);
+    background-color: var(--hover-background);
+    border-radius: 30px;
+    transition: 100ms ease-out;
+}
+
+.tweet--button {
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+}

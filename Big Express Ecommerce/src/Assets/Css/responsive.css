@@ -1,0 +1,70 @@
+
+@media (max-width: 768px) {
+
+    .section-title{
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .footer-header{
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    .card-title .card-price .section-subtitle{
+        font-size: 14px; 
+    }
+    .footer-text{
+      font-size: 12px; 
+    }
+    .mobile-hide{ display:none !important; }
+
+    .mobile-show{display:inline-block !important;}
+    
+    .responsive-megamenu{display: none;}
+    
+    .responsive-footer{text-align: center;}
+
+    .footer-img{display: block; margin: 0px auto;}
+
+    }
+    @media (min-width: 769px) {
+      .section-title{
+        font-size: 26px;
+        line-height: 32px;
+      }
+
+      .card-title .card-price .section-subtitle{
+        font-size: 16px;
+      }
+
+      .footer-text{
+        font-size: 14px; 
+      }
+      
+    }
+    
+    
+    @media (min-width: 1200px) {
+      .section-title{
+        font-size: 30px;
+        line-height: 36px;
+      }
+
+      .footer-header{
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      .card-title .card-price .section-subtitle{
+        font-size: 16px;
+      }
+
+      .footer-text{
+        font-size: 14px; 
+      }
+    }
+
+    @media (min-width: 578px) {
+
+      .navbar-megamenu{display: none;}
+    }
